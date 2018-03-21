@@ -1,0 +1,36 @@
+.o-header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.o-header__logo{
+    float: left;
+}
+.o-header__nav{
+    float: right;
+    margin-right: 3em;
+}
+.o-header__nav ul li {
+    display: inline;
+    line-height:100px;
+    vertical-align:middle;
+}
+.o-header__nav a{
+    font-size: 0.9em;
+    color: white;
+    margin:0 14px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.o-header__nav a:hover{
+    color: #9d9d9d;
+    transition: opacity 1s ease;
+
+}
+
+.o-header__nav .activo{
+    color: #0075af;
+}

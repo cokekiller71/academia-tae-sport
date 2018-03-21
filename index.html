@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bienvenidos a Tae Sport Chile</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css" >
+  <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+  <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="o-header">
+            <div class="o-header__logo"><a href="index.html"><img src="img/logo.png"></a></div>
+            
+            <nav class="o-header__nav">
+                <ul>
+                    <li><a href="index.html" class="activo">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="escuela.html">ESCUELAS</a></li>
+                    <li><a href="programas.html">PROGRAMAS</a></li>
+                    <li><a href="noticias.html">NOTICIAS</a></li>
+                    <li><a href="galeria.html">GALERÍA</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="o-slider">
+            <div id="owl-demo" class="owl-carousel">
+                <div class="o-slider_items">
+                    <div class="o-slider_items__item">
+                        <p><b>INICIACIÓN - FORMACIÓN - COMPETICIÓN</b><br>
+                            NIÑOS - JÓVENES - ADULTOS<br>
+                            <span>PARA - TAEKWONDO</span></p>
+                    </div>
+                    <img src="img/banner/banner-01.jpg" >
+                </div>
+                <div class="o-slider_items">
+                    <div class="o-slider_items__item">
+                        <p><b>INICIACIÓN - FORMACIÓN - COMPETICIÓN</b><br>
+                            NIÑOS - JÓVENES - ADULTOS<br>
+                            <span>PARA - TAEKWONDO</span></p>
+                    </div>
+                    <img src="img/banner/banner-02.jpg" >
+                </div>
+            </div>
+        </div> 
+        <div class="o-bienvenidos">
+            <div class="o-contenedor">
+                <h2>BIENVENIDOS</h2>
+                <p>Una Academia de Taekwondo W.T.F federada y especialista en la formación e iniciación deportiva de niños, jóvenes, adultos y tercera edad. Nos dedicamos a la enseñanza de las distintas áreas que componen nuestro arte marcial, entre ellas podemos nombrar las mas destacadas; defensa personal (hosinsul), combate tradicional, combate olímpico (kyorugui), formas (poomsaes), rompimientos (Kiukpa) y exhibición del Taekwondo y del deporte, con bases sólidas y sostenidas fundamentalmente en los valores que entregan nuestro arte marcial y la actividad física en general.
+                </p>
+            </div>
+        </div>
+        <div class="o-video">
+            <div class="o-contenedor">
+                <div class="o-video__video"><iframe width="1100" height="619" src="https://www.youtube.com/embed/iOAGLlpJfOI?rel=0&amp;controls=0&amp;showinfo=0;autoplay=0" frameborder="0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+        <div class="o-talleres">
+            <div class="o-talleres__titulo"><p>CLASES</p></div>
+            <div class="o-talleres__items">
+                <div class="o-talleres__items__item">
+                    <img src="img/kids.jpg">
+                    <h2>NIÑOS</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</P>
+                </div>
+                <div class="o-talleres__items__item">
+                    <img src="img/jovenes.jpg">
+                    <h2>JOVENES</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</P>
+                </div>
+                <div class="o-talleres__items__item">
+                    <img src="img/adultos2.jpg">
+                    <h2>ADULTOS</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis</P>
+                </div>
+            </div>
+        </div>
+        <div class="o-patada"><img src="img/parada.svg"></div>
+        <footer>
+            <div class="o-contenedor">
+                <img src="img/logo-taesport-circular.png">
+                <p><span>Jocelyn Olivares Guerra</span><br>
+                    Directora Academia de Taekwondo<br>
+                    Tae Sport Chile<br>
+                    3rd Dan World Taekwondo Federation<br>
+                    Profesora de Educación Física.<br><br>
+                    <a href="tel:56973375964" target="_blank">Tel: (+569) 73375964</a><br>
+                    Av. Irarrazabal #3166, 2° piso, Ñuñoa, Santiago.<br>
+                    Av. Pedro Fontova #7789, Local 6. Huechuraba, Santiago.<br><br>
+                    <a href="mailto:taesportchile@gmail.com" target="_blank">Correo: taesportchile@gmail.com</a></p>
+            </div>
+        </footer>
+    </section>
+  <!-- build:js js/vendor.min.js -->
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+
+      var time = 5; // time in seconds
+
+      var $progressBar,
+          $bar, 
+          $elem, 
+          isPause, 
+          tick,
+          percentTime;
+
+        //Init the carousel
+        $("#owl-demo").owlCarousel({
+          slideSpeed : 1500,
+          paginationSpeed : 1500,
+          singleItem : true,
+          afterInit : progressBar,
+          afterMove : moved,
+          startDragging : pauseOnDragging
+        });
+
+        //Init progressBar where elem is $("#owl-demo")
+        function progressBar(elem){
+          $elem = elem;
+          //build progress bar elements
+          buildProgressBar();
+          //start counting
+          start();
+        }
+
+        //create div#progressBar and div#bar then prepend to $("#owl-demo")
+        function buildProgressBar(){
+          $progressBar = $("<div>",{
+            id:"progressBar"
+          });
+          $bar = $("<div>",{
+            id:"bar"
+          });
+          $progressBar.append($bar).prependTo($elem);
+        }
+
+        function start() {
+          //reset timer
+          percentTime = 0;
+          isPause = false;
+          //run interval every 0.01 second
+          tick = setInterval(interval, 10);
+        };
+
+        function interval() {
+          if(isPause === false){
+            percentTime += 1 / time;
+            $bar.css({
+               width: percentTime+"%"
+             });
+            //if percentTime is equal or greater than 100
+            if(percentTime >= 100){
+              //slide to next item 
+              $elem.trigger('owl.next')
+            }
+          }
+        }
+
+        //pause while dragging 
+        function pauseOnDragging(){
+          isPause = true;
+        }
+
+        //moved callback
+        function moved(){
+          //clear interval
+          clearTimeout(tick);
+          //start again
+          start();
+        }
+
+    });
+    </script>
+
+  <!-- endbuild -->
+</body>
+</html>

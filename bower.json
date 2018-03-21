@@ -1,0 +1,23 @@
+{
+  "name": "licitapyme",
+  "description": "",
+  "main": "package.js",
+  "authors": [
+    "Cristian Quiroz <cris.quiroz89@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.0"
+  }
+}
