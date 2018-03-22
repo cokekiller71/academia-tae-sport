@@ -1,0 +1,46 @@
+#programas{
+    margin-top: 6em;
+    margin-bottom: 6em;
+    }
+
+.o-programas{
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d8d8d8;
+    overflow: hidden;
+    
+}
+.o-programas img{
+    width: 50%;
+    background-color: #d8d8d8;
+    float: left;
+}
+
+
+.o-programma__items{
+    width: 50%;
+    padding: 3em;
+    float: left;
+    
+    h2{
+    width: 90%;
+    font-size: 2em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    }
+    
+    p{
+    width: 90%;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+}
