@@ -35,3 +35,27 @@ footer .o-contenedor a{
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
 }
+
+footer .o-contenedor a:hover{
+    color: #0075af;
+}
+
+.redes{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.fa{
+    padding-top: 0.5em;
+    margin-left: 15px;
+    padding-bottom:  0.5em;
+}
+
+.redes i{
+color: white;
+}
+.redes i:hover{
+    color: #0075af;
+}
