@@ -1,6 +1,97 @@
 .o-contacto{
+    margin-top: 3px;
     width: 100%;
-    height: 1000px;
-    background-color: darkslategray;
+    height: 950px;
+    background: url(/img/fondo-contacto.jpg);
+    background-size: cover;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     overflow: hidden;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+
+.o-contacto__items{
+    width: 750px;
+    margin: 0 auto;
+    padding: 6em;
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 4em;
+    
+    h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+    color: #454545;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    p{
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #454545;
+    text-align: justify;
+    line-height: normal;
+    font-family: 'Nunito', sans-serif;
+    }
+}
+
+.formulario-faq{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.formu ul{
+    width: 100%;
+    overflow: hidden;
+}
+.formu input{
+    margin: 10px 10px 10px 0px;
+    height:45px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 1.2em;
+    border: 1px solid #85bcd4;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    }
+.formu textarea{
+    height:100px;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    font-weight: 400;
+    font-size: 1.2em;
+    border: 1px solid #85bcd4;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+.formu button{
+    width: 99%;
+    margin-top: 20px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #454545;
+    background-color: rgba(133, 188, 212, 0.47);
+    overflow: hidden;
+    border: 1px solid #256f90;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.formu button:hover{
+    background-color: #454545;
+    border: 1px solid #454545;
+    color: white;
+    background-color: rgba(69, 69, 69, 0.49);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
 }
