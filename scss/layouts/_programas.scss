@@ -5,7 +5,7 @@
 
 .o-programas{
     max-width: 950px;
-    width: 100%;
+    width:100%;
     margin: 0 auto;
     background-color: #eeefef;
     overflow: hidden;
@@ -13,8 +13,8 @@
 }
 .o-programas img{
     width: 50%;
-    background-color: #eeefef;
     float: left;
+    
 }
 
 
@@ -29,7 +29,7 @@
     font-size: 1.8em;
     font-weight: 400;
     padding-bottom: 0.5em;
-    color: #000000;
+    color: #004e9a;
     text-align: justify;
     font-family: 'Nunito', sans-serif;
     }
@@ -44,6 +44,75 @@
     color: #000000;
     text-align: justify;
     font-family: 'Nunito', sans-serif;
+    }
+
+}
+
+@media screen and (max-width:950px){
+.o-programma__items{
+    padding: 2em;
+    
+    h2{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    color: #004e9a;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    line-height: 18px;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+
+}
+
+
+}
+
+@media screen and (max-width:750px){
+    
+#programas{
+    margin-top: 2em;
+    margin-bottom: 3em;
+    }
+
+.o-programas img{
+    width: 100%;
+    float: left;
+}
+.o-programma__items{
+    width: 100%;
+    padding: 1em;
+    
+    h2{
+    padding-top: 1em;
+     
+    }
+    
+    p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 3em;
+    line-height: 18px;
+    color: #000000;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+
+        
     }
 
 }
