@@ -2,34 +2,35 @@
     width: 100%;
     margin-top: 5em;
     margin-bottom: 8em;
+    h2{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        background-color: black;
+        padding: 15px;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+    h3{
+        margin: 0 auto;
+        margin-top: 2em;
+        padding: 15px;
+        font-size: 1.3em;
+        font-weight: 400;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 2em;
+    }
 }
 
-.o-sedes  h2{
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 3em;
-    margin-bottom: 3em;
-    background-color: black;
-    padding: 15px;
-    font-size: 1.3em;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-}
 
-.o-sedes  h3{
-    margin: 0 auto;
-    margin-top: 2em;
-    padding: 15px;
-    font-size: 1.3em;
-    font-weight: 400;
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 2em;
-}
+
 .o-sedes_horarios{
     max-width: 1000px;
     margin: 0 auto;
