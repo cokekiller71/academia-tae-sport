@@ -3,7 +3,7 @@ $(function(){
 });
 
 
-            $(document).ready(function() {
+    $(document).ready(function() {
 
       var time = 5; // time in seconds
 
