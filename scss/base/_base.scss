@@ -76,3 +76,67 @@ body {
     }
     
 }
+
+@media screen and (max-width:700px) {
+    
+.o-contenedor{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+    h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    color: #004e9a;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    padding-bottom: 1em;
+    color: #595858;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    p span{
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 2px;
+    padding-bottom: 1em;
+    color: #595858;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+}
+    
+    
+.o-banner{
+    width: 100%;
+    position: relative;
+    
+    img{
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        font-weight: 400;
+        color: rgba(129, 129, 129, 0.5);
+        text-align: justify;
+        margin: 4px 0 0;
+        padding-right: 0em;
+        font-family: 'Nunito', sans-serif;
+        position: absolute;
+        bottom: 10px;
+        left: 20px;   
+    }
+}
+}

@@ -12,25 +12,27 @@
     <header>
         <div class="o-header">
             <div class="o-header__logo"><a href="index.html"><img src="img/logo.png"></a></div>
-            
             <nav class="o-header__nav">
                 <ul>
-                    <li><a href="index.html" >INICIO</a></li>
+                    <li><a href="index.html"  >INICIO</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
-                    <li><a href="escuela.html" >ESCUELAS</a></li>
-                    <li><a href="programas.html" >PROGRAMAS</a></li>
+                    <li><a href="escuela.html">ESCUELA</a></li>
+                    <li><a href="programas.html">PROGRAMAS</a></li>
                     <li><a href="noticias.html">NOTICIAS</a></li>
                     <li><a href="galeria.html">GALERÍA</a></li>
                     <li><a href="contacto.html" class="activo">CONTACTO</a></li>
                 </ul>
             </nav>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><span class="fa fa-bars" aria-hidden="true"></span></a>
+            </div>
         </div>
     </header>
     <section>
         <div class="o-contacto">
             <div class="o-contacto__items">
                 <h3>CONTACTO</h3>
-                <p>Si tiene alguna consulta o duda, llene el formulario de contacto y nos comunicaremos a la brevedad.</p><br><br><br>
+                <p>Si tiene alguna consulta o duda, llene el formulario de contacto y nos comunicaremos a la brevedad.</p><br><br>
                 <div class="formulario-faq">
                     <form class="formu" action="for2.php" method="post">
                         <ul>
@@ -38,7 +40,7 @@
                             <li><input type="email" name="email" placeholder="EMAIL" required></li>
                             <li><input type="text" name="ciudad" placeholder="CIUDAD DE ORIGEN" required></li>
                             <li><input type="text" name="telefono" placeholder="TELEFONO" required></li>
-                            <li><textarea rows="5" cols="30" name="comentario" placeholder="COMENTARIOS" required></textarea></li><br><br>
+                            <li><textarea rows="5" cols="30" name="comentario" placeholder="COMENTARIOS" required></textarea></li><br>
                             <div class="g-recaptcha" data-sitekey="6LeIZSMUAAAAANVVjk9Y-pwXucIvK3iGuR3jUw2W"></div>
                             <li><button type="submit">Enviar</button></li>
                         </ul>
@@ -68,7 +70,10 @@
     </section>
   <!-- build:js js/vendor.min.js -->
     <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="js/jquery-latest.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
   <!-- endbuild -->
 </body>
 </html>

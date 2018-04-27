@@ -1,0 +1,121 @@
+.o-noticias_interior{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:80px;
+    margin-bottom: 100px;
+    
+    img{
+    width: 100%;
+    margin-bottom: 50px;
+    }
+    
+    h2{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    margin-bottom: 90px;
+    }
+    
+    p{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    color: black;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    float: left;
+    }
+}
+.o-video-noticias{
+    margin-bottom: 70px;
+}
+.o-galeria-noticias{
+    max-width: 1020px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+.o-galeria_items{
+    width: 100%;
+    
+    img{
+        width: 33.333%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+.o-galeria-noticias{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 4em;
+    overflow: hidden;
+}
+
+.o-galeria_items{
+    width: 100%;
+    
+    img{
+        width: 50%;
+        float: left;
+        padding: 10px;
+    }
+}
+
+} 
+
+
+@media screen and (max-width:700px){
+    .o-noticias_interior{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom: 180px;
+    
+    img{
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    h2{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    margin-bottom: 30px;
+    }
+    
+    p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    color: black;
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+    }
+}
+
+
+}
+

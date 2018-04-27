@@ -1,7 +1,7 @@
 .o-contacto{
     margin-top: 3px;
     width: 100%;
-    height: 880px;
+    height: 830px;
     background: url(fondo-contacto.jpg);
     background-size: cover;
     background-position: center right;
@@ -22,7 +22,7 @@
     margin-top: 4em;
     
     h3{
-     width: 90%;
+     width: 100%;
      margin: 0 auto;
     text-transform: uppercase;
     font-weight: 400;
@@ -33,7 +33,7 @@
     }
     
     p{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 1em;
     font-weight: 400;
@@ -99,3 +99,104 @@
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
+
+@media screen and (max-width:700px) {
+.o-contacto{
+    margin-top: 3px;
+    width: 100%;
+    height: 680px;
+    background: url(fondo-contacto.jpg);
+    background-size: cover;
+    background-position: center right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+.o-contacto__items{
+    max-width:680px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.89);
+    margin-top: 2em;
+    
+    h3{
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 28px;
+    color: #004e9a;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    }
+    
+    p{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 18px;
+    color: #454545;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Nunito', sans-serif;
+    }
+}
+.formulario-faq{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.formu ul{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.formu input{
+    margin: 5px 0px 5px 0px;
+    height:45px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #004e9a;
+    float: left;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    }
+.formu textarea{
+    height:100px;
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #004e9a;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    margin: 5px 0px 0px 0px;
+
+}
+.formu button{
+    width: 99%;
+    margin-top: 0px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background-color: #004e9a;
+    overflow: hidden;
+    border: 1px solid #256f90;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+}
+    

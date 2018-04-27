@@ -19,9 +19,9 @@
                     <li><a href="index.html"  class="activo">INICIO</a></li>
                     <li><a href="nosotros.html">NOSOTROS</a></li>
                     <li><a href="escuela.html">ESCUELA</a></li>
-                    <li><a href="programa.html">PROGRAMAS</a></li>
+                    <li><a href="programas.html">PROGRAMAS</a></li>
                     <li><a href="noticias.html">NOTICIAS</a></li>
-                    <li><a href="noticias.html">GALERÍA</a></li>
+                    <li><a href="galeria.html">GALERÍA</a></li>
                     <li><a href="contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
@@ -83,6 +83,48 @@
                 </div>
             </div>
         </div>
+        
+        <div class="o-noticias__destacadas">
+            <div class="o-contenedor">
+                <div class="o-noticias__destacadas__item">
+                    <div class="o-noticias__destacadas__titulo"><p>NOTICIAS DESTACADAS</p></div>
+                    <div class="o-contenedor__destacado">
+                        
+                        <div class="o-noticias__destacadas__item__items">
+                            <div class="o-noticias">
+                                <img src="img/noticia-1.jpg">
+                                <div class="o-noticias__info">
+                                    <h2>TAE SPORT CHILE PRESENTE EN EL 1ER ENTRENAMIENTO Y CONVOCATORIA NACIONAL DE POOMSAE</h2>
+                                    <div class="o-noticias_info__fecha">Stgo. 23 abril 2017</div>
+                                    <p>1° Entrenamiento y convocatoria masiva con el equipo nacional de Poomsae y el Team de Taekwondo y PARA-Taekwondo Poomsae Tae Sport Chile. Gracias a todos los asistentes a este primer encuentro masivo 2017 realizado por nuestra Federación. Esta es una de las muchas instancias de llamados a entrenamientos con el equipo nacional.</p>
+                                    <a href="">VER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="o-noticias__destacadas__item__items">
+                            <div class="o-noticias">
+                                <img src="img/noticia-1.jpg">
+                                <div class="o-noticias__info">
+                                    <h2>TAE SPORT CHILE PRESENTE EN EL 1ER ENTRENAMIENTO Y CONVOCATORIA NACIONAL DE POOMSAE</h2>
+                                    <div class="o-noticias_info__fecha">Stgo. 23 abril 2017</div>
+                                    <p>1° Entrenamiento y convocatoria masiva con el equipo nacional de Poomsae y el Team de Taekwondo y PARA-Taekwondo Poomsae Tae Sport Chile. Gracias a todos los asistentes a este primer encuentro masivo 2017 realizado por nuestra Federación. Esta es una de las muchas instancias de llamados a entrenamientos con el equipo nacional.</p>
+                                    <a href="">VER MÁS</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                        
+                        
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        
         <div class="o-patada"><img src="img/parada.svg"></div>
         <footer>
             <div class="o-contenedor">
@@ -107,88 +149,9 @@
     <script src="libs/jquery/dist/jquery.min.js"></script>
     <script src="js/jquery-latest.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/main2.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="owl-carousel/owl.carousel.js"></script>
-    <script>
-            $(document).ready(function() {
 
-      var time = 5; // time in seconds
-
-      var $progressBar,
-          $bar, 
-          $elem, 
-          isPause, 
-          tick,
-          percentTime;
-
-        //Init the carousel
-        $("#owl-demo").owlCarousel({
-          slideSpeed : 1500,
-          paginationSpeed : 1500,
-          singleItem : true,
-          afterInit : progressBar,
-          afterMove : moved,
-          startDragging : pauseOnDragging
-        });
-
-        //Init progressBar where elem is $("#owl-demo")
-        function progressBar(elem){
-          $elem = elem;
-          //build progress bar elements
-          buildProgressBar();
-          //start counting
-          start();
-        }
-
-        //create div#progressBar and div#bar then prepend to $("#owl-demo")
-        function buildProgressBar(){
-          $progressBar = $("<div>",{
-            id:"progressBar"
-          });
-          $bar = $("<div>",{
-            id:"bar"
-          });
-          $progressBar.append($bar).prependTo($elem);
-        }
-
-        function start() {
-          //reset timer
-          percentTime = 0;
-          isPause = false;
-          //run interval every 0.01 second
-          tick = setInterval(interval, 10);
-        };
-
-        function interval() {
-          if(isPause === false){
-            percentTime += 1 / time;
-            $bar.css({
-               width: percentTime+"%"
-             });
-            //if percentTime is equal or greater than 100
-            if(percentTime >= 100){
-              //slide to next item 
-              $elem.trigger('owl.next')
-            }
-          }
-        }
-
-        //pause while dragging 
-        function pauseOnDragging(){
-          isPause = true;
-        }
-
-        //moved callback
-        function moved(){
-          //clear interval
-          clearTimeout(tick);
-          //start again
-          start();
-        }
-
-    });
-    </script>
 
   <!-- endbuild -->
 </body>
